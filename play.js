@@ -10,22 +10,15 @@ const summarizeUser = (userName, userAge, userHasHobby) => { // these are local 
     return 'Name is ' + userName + ' age is ' + userAge + ' and the uset has the hobbies are ' + userHasHobby;
 };
 
-const add=(a,b) => {
+const add = (a, b) => {
 return 'total is ' + (a+b);
 };
 
 
 
-const add1 =(a,b) => a+b;
+const add1 =(a,b) => a+b;git
 const addOne=a => a+1;  //parenthesis will remove it. if you have a single paramter. 
-const addRandom =()=>1+2;
-
-
-
-
-
-
-
+const addRandom =()=>1+2;git 
 
 
 console.log(add(1,2));
@@ -33,3 +26,4 @@ console.log(summarizeUser(name, age, hashobbies));
 console.log(addOne(4));
 console.log(addRandom());
 
+//test commits
