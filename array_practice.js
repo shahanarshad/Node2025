@@ -6,7 +6,7 @@ const person = {
 
     }
 };
-const hobbies = ['Sports', 'Cooking'];
+const hobbies = ['Sports', 'Cooking'];  //const is storing the address value of the array , so even if you add members in the array it will not create issues.
 
 for (let hobby of hobbies) {
     console.log(hobby);
@@ -16,5 +16,6 @@ console.log(hobbies.map(hobby => 'Shahan:' + hobby));   //map function creates a
 console.log(hobbies);  //original array 
 
 
-
+hobbies.push('Programming');  //adding value to the original array 
+console.log(hobbies);  
 
