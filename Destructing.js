@@ -18,5 +18,5 @@ const {name,age}=person;
 //console.log(name,age);
 
 const hobbies =['Sports','Cooking'];
-const [h1,h2]=hobbies;
+const [h1,h2]=hobbies; //Destructuring array example 
 console.log(h1,h2);

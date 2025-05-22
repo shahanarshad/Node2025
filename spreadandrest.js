@@ -12,15 +12,15 @@ const copiedArray=hobbies.slice();//slice simply copies the array , no arguments
 
 
 const fakelove=[...hobbies]; //spread operator example on the array , it copied the elements of the array onto new one.
-console.log(fakelove);
+//console.log(fakelove);
 
 const shahan={...person}; //spread exmaple on the object. 
-console.log(shahan);
+//console.log(shahan);
 
-const toArray=(...args)=> {
+const toArray=(...args)=> { //example of the rest operator 
 return args;
 
-}
+};
 
 console.log(toArray(1,2,3,4));
 
