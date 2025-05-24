@@ -1,8 +1,12 @@
-const fetchData = callback => {
+const fetchData = () => {
+const promise= new Promise((resolve, reject) => {
   setTimeout(() => {
-    callback('Done!');
+    resolve('Done!');
     }, 1500);
+  });
+return promise;
 };
+
 
 setTimeout(() => {
   console.log("Timeout is implemented");
